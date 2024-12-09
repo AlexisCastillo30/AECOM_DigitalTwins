@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,28 +11,32 @@
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\emptyparamspanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\emptyparamspanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\georefextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\georefextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\emptyparamsextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\emptyparamsextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\baseextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\baseextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\georefextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\georefextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\baseextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\baseextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\aecom_digitaltwins\\hubsbrowser24_digitaltwing\\wwwroot\\extensions\\progressbarextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +102,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "ProgressBarPanel.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarPanel.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarPanel.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarPanel.js",
+              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarPanel.js",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwNgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-09T19:51:14.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\main.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
+              "RelativeToolTip": "wwwroot\\main.js",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T21:38:57.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
+              "RelativeDocumentMoniker": "wwwroot\\main.css",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
+              "RelativeToolTip": "wwwroot\\main.css",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAUwMMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T21:38:49.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BaseExtension.js",
               "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\BaseExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\BaseExtension.js",
@@ -114,56 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProgressBarPanel.js",
-              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarPanel.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarPanel.js",
-              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarPanel.js",
-              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarPanel.js",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwNgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T19:51:14.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProgressBarExtension.js",
-              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarExtension.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarExtension.js",
-              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarExtension.js",
-              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarExtension.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T19:50:42.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
-              "RelativeDocumentMoniker": "wwwroot\\main.js",
-              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.js",
-              "RelativeToolTip": "wwwroot\\main.js",
-              "ViewState": "AQIAADMAAAAAAAAAAAAIwFoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-02T21:38:57.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
-              "RelativeDocumentMoniker": "wwwroot\\main.css",
-              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\main.css",
-              "RelativeToolTip": "wwwroot\\main.css",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-02T21:38:49.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GeorefExtension.js",
               "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\GeorefExtension.js",
@@ -175,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "viewer.js",
               "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\viewer.js",
               "RelativeDocumentMoniker": "wwwroot\\viewer.js",
@@ -211,32 +201,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
               "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\index.html",
               "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAkwCUAAAAmAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-12-02T21:38:28.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "EmptyParamsPanel.js",
               "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\EmptyParamsPanel.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\EmptyParamsPanel.js",
               "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\EmptyParamsPanel.js",
               "RelativeToolTip": "wwwroot\\extensions\\EmptyParamsPanel.js",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAYwLQAAAAAAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAIwHkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T19:52:26.698Z"
+              "WhenOpened": "2024-12-09T19:52:26.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "EmptyParamsExtension.js",
               "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\EmptyParamsExtension.js",
               "RelativeDocumentMoniker": "wwwroot\\extensions\\EmptyParamsExtension.js",
@@ -244,7 +235,20 @@
               "RelativeToolTip": "wwwroot\\extensions\\EmptyParamsExtension.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T19:52:07.48Z"
+              "WhenOpened": "2024-12-09T19:52:07.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProgressBarExtension.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarExtension.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarExtension.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarExtension.js",
+              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarExtension.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-09T19:50:42.678Z"
             },
             {
               "$type": "Document",

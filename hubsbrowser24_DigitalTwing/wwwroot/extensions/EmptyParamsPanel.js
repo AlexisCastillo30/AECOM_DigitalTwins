@@ -117,9 +117,9 @@
             }
         });
 
-        // Ajustes de estilo del canvas
-        this.canvas.style.height = '650px';
-        this.canvas.style.width = '530px';
+        // Ajustes de estilo del canvas para que sea responsivo
+        this.canvas.style.width = '100%'; // Ajustar al ancho del contenedor
+        this.canvas.style.height = '60%'; // Altura proporcional al panel
         this.canvas.style.backgroundColor = 'white';
         this.canvas.style.border = '2px solid #ccc';
         this.canvas.style.borderRadius = '10px';
