@@ -28,3 +28,63 @@ try {
     alert('Could not initialize the application. See console for more details.');
     console.error(err);
 }
+
+
+//// Botón para mostrar el panel de calidad BIM
+//document.addEventListener('DOMContentLoaded', () => {
+//    console.log("Inicializando la clase Botones.");
+//    new botones(); // Inicializa la clase complementaria Botones
+
+//    /*const button = document.getElementById("quality-btn");*/
+//    const panel = document.getElementById("bim-quality-panel");
+
+//    if (button && panel) {
+//        button.addEventListener('click', async () => {
+//            panel.classList.toggle("visible-panel");
+
+//            if (panel.classList.contains("visible-panel")) {
+//                console.log("Panel de calidad BIM activado.");
+//                const viewer = await initViewer(document.getElementById('preview'));
+
+//                // Cargar la extensión del ProgressBar si no está activa
+//                const progressBarExtension = viewer.getExtension('ProgressBarExtension');
+//                const emptyParamsExtension = viewer.getExtension('EmptyParamsExtension');
+//                if (progressBarExtension && progressBarExtension.panel) {
+//                    console.log("Inicializando la barra de progreso.");
+//                    /*progressBarExtension.panel.initChart();*/
+//                } else {
+//                    console.error("No se encontró la extensión ProgressBarExtension.");
+//                }
+//                if (emptyParamsExtension && emptyParamsExtension.panel) {
+//                    console.log("Inicializando la barra de progreso.");
+//                    /*progressBarExtension.panel.initChart();*/
+//                } else {
+//                    console.error("No se encontró la extensión ProgressBarExtension.");
+//                }
+//            }
+//        });
+//    } else {
+//        console.error("Botón o panel no encontrado.");
+//    }
+//})
+document.addEventListener('DOMContentLoaded', () => {
+    const panel = document.getElementById("bim-quality-panel");
+
+    // Hacer visible el panel al cargar la página
+    if (panel) {
+        panel.classList.remove("hidden-panel");
+        console.log("BIM Quality Panel is now visible.");
+    }
+
+    const sidebar = document.getElementById("sidebar");
+    const menuSidebarBtn = document.getElementById("menu-sidebar-btn");
+
+    // Lógica para alternar la visibilidad del sidebar
+    if (sidebar && menuSidebarBtn) {
+        menuSidebarBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("collapsed");
+        });
+    } else {
+        console.error("Sidebar or its button is missing.");
+    }
+});

@@ -33,12 +33,19 @@
             <span>© Copyright all rights reserved</span>
         </div>
     </div>
+    <div id="bim-quality-panel" class="hidden-panel">
+        <canvas id="progress-chart"></canvas>
+        <canvas id="empty-params-chart"></canvas>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.9/signalr.min.js"></script>
     <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
     <script src="https://unpkg.com/inspire-tree@4.3.1/dist/inspire-tree.js"></script>
     <script src="https://unpkg.com/inspire-tree-dom@4.0.6/dist/inspire-tree-dom.min.js"></script>
-    <script src="/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="extensions/ProgressBarExtension.js" type="module"></script>
+    <script src="main.js" type="module" defer></script>
 </body>
 
 </html>
