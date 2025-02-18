@@ -1,4 +1,5 @@
-﻿import { initViewer, loadModel } from './viewer.js';
+﻿import './extensions/GeorefExtension.js'; // Para que se registre en theExtensionManager
+import { initViewer, loadModel } from './viewer.js';
 import { initTree } from './sidebar.js';
 
 const login = document.getElementById('login');
@@ -16,8 +17,62 @@ try {
                 window.location.replace('/api/auth/logout');
                 document.body.removeChild(iframe);
             };
-        }
+        };
+
+        // 1) Iniciamos el viewer
         const viewer = await initViewer(document.getElementById('preview'));
+
+        // 2) Cargamos GeorefExtension manualmente (si no está en config)
+        viewer.loadExtension('GeorefExtension')
+            .catch((err) => console.error('Error al cargar GeorefExtension:', err));
+
+        // 3) Escuchamos el evento enviado por la extensión
+        viewer.addEventListener('GEORF_DATA_EVENT', (evt) => {
+            const { coordNS, coordEW, coordElev, sysCoord, angleTrueNorth } = evt.data;
+            // Ejemplo: si tienes un elemento debajo de "Model Selected" para mostrar coords
+            const selectedItemDisplay = document.getElementById('selected-item-display');
+            if (selectedItemDisplay) {
+                // Agregar texto debajo del nombre
+                const coordsInfo = document.createElement('div');
+                coordsInfo.style.marginTop = '10px';
+                coordsInfo.innerHTML =  `
+                <table>
+                    <tr>
+                        <td><strong>Coordinates:</strong></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>N/S:</td>
+                        <td>${coordNS}</td>
+                        <td>m</td>
+                    </tr>
+                    <tr>
+                        <td>E/W:</td>
+                        <td>${coordEW}</td>
+                        <td>m</td>
+                    </tr>
+                    <tr>
+                        <td>Elevation:</td>
+                        <td>${coordElev}</td>
+                        <td>m</td>
+                    </tr>
+                    <tr>
+                        <td>Angle:</td>
+                        <td>${angleTrueNorth}</td>
+                        <td>°</td>
+                    </tr>
+                    <tr>
+                        <td>System Coordinates:</td>
+                        <td colspan="2">${sysCoord}</td>
+                    </tr>
+                </table>
+                    `;
+                selectedItemDisplay.appendChild(coordsInfo);
+            }
+        });
+
+        // 4) Iniciar el árbol con la función de loadModel
         initTree('#tree', (id) => loadModel(viewer, window.btoa(id).replace(/=/g, '')));
     } else {
         login.innerText = 'Login';
@@ -33,18 +88,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const panel = document.getElementById("bim-quality-panel");
     const emptyParamsPanel = document.getElementById("empty-params-panel");
 
-    // Ajustar el tamaño del panel dinámicamente al cargar la página
     if (panel && emptyParamsPanel) {
         const adjustPanelHeight = () => {
             const panelHeight = panel.offsetHeight;
             const progressChartHeight = document.getElementById("progress-chart").offsetHeight;
-
-            // Ajustar la altura restante para empty-params-panel
             const remainingHeight = panelHeight - progressChartHeight - 20; // 20px de padding
             emptyParamsPanel.style.height = `${remainingHeight}px`;
         };
-
-        // Llamar al ajuste de tamaño inicial y en caso de redimensionar la ventana
         adjustPanelHeight();
         window.addEventListener("resize", adjustPanelHeight);
     } else {

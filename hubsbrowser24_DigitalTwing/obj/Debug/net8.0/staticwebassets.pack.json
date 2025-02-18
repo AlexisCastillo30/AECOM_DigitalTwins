@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\extensions\\DataGridPanel.js"
     },
     {
+      "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\EmptyParamsExtension.js",
+      "PackagePath": "staticwebassets\\extensions\\EmptyParamsExtension.js"
+    },
+    {
+      "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\EmptyParamsPanel.js",
+      "PackagePath": "staticwebassets\\extensions\\EmptyParamsPanel.js"
+    },
+    {
       "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\GeorefExtension.js",
       "PackagePath": "staticwebassets\\extensions\\GeorefExtension.js"
     },
@@ -31,6 +39,14 @@
     {
       "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\LoggerExtension.js",
       "PackagePath": "staticwebassets\\extensions\\LoggerExtension.js"
+    },
+    {
+      "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarExtension.js",
+      "PackagePath": "staticwebassets\\extensions\\ProgressBarExtension.js"
+    },
+    {
+      "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\ProgressBarPanel.js",
+      "PackagePath": "staticwebassets\\extensions\\ProgressBarPanel.js"
     },
     {
       "Id": "C:\\Users\\sarmientoc\\Documents\\GitHub\\AECOM_DigitalTwins\\hubsbrowser24_DigitalTwing\\wwwroot\\extensions\\SummaryPanel.js",

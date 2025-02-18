@@ -8,14 +8,17 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\extensions\SummaryExtension.js" />
+    <Content Remove="wwwroot\fileName.js" />
   </ItemGroup>
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="wwwroot\extensions\SummaryExtension.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\fileName.js" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\extensions\SummaryExtension.js" />
+    <None Include="wwwroot\fileName.js" />
   </ItemGroup>
 
   <ItemGroup>

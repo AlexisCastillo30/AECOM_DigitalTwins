@@ -16,24 +16,47 @@ class GeorefExtension extends BaseExtension {
     async onModelLoaded(model) {
         super.onModelLoaded(model);
 
-        const modelData = model.getData(); // Obtener los datos del modelo
-        const tipoArchivo = model.getData().loadOptions ? model.getData().loadOptions.fileExt : 'No disponible';
-        if (modelData && modelData.metadata && modelData.metadata.georeference) {
-            const georeference = modelData.metadata.georeference;
-            const coordNS = georeference.positionNative ? georeference.positionNative[0] * 0.3048 : 'No disponible';
-            const coordEW = georeference.positionNative ? georeference.positionNative[1] * 0.3048 : 'No disponible';
-            const coordAngle = georeference.positionNative ? georeference.positionNative[2] : 'No disponible';
-            const sysCoord = georeference.positionNative ? georeference.nativeCoordSys : 'No disponible';
+        const modelData = model.getData();
+        const tipoArchivo = modelData.loadOptions ? modelData.loadOptions.fileExt : 'No disponible';
+
+        if (modelData?.metadata?.georeference) {
+            const georef = modelData.metadata.georeference;
             
-            console.log('Coordenadas de georeferenciación N/S:', coordNS, "m");
-            console.log('Coordenadas de georeferenciación E/W:', coordEW, "m");
-            console.log('Coordenadas de georeferenciación Angulo:', coordAngle, "°");
+            const coordEW = georef.positionNative ? (georef.positionNative[0] * 0.3048).toFixed(3) : 'No disponible';
+            const coordNS = georef.positionNative ? (georef.positionNative[1] * 0.3048).toFixed(3) : 'No disponible';
+            const coordElev = georef.positionNative ? (georef.positionNative[2] * 0.3048).toFixed(3) : 'No disponible';
+            const sysCoord = georef.positionNative ? georef.nativeCoordSys : 'No disponible';
+
+            const customValues = modelData.metadata.valueOf()['custom values'];
+            const angleTrueNorth = (customValues && customValues.angleToTrueNorth !== undefined)
+                    ? customValues.angleToTrueNorth.toFixed(2)
+                    : 'No disponible';
+
+
+            console.log('Coordenadas de georeferenciación N/S:', coordNS, 'm');
+            console.log('Coordenadas de georeferenciación E/W:', coordEW, 'm');
+            console.log('Coordenadas de georeferenciación Elevación:', coordElev, 'm');
+            console.log('Coordenadas de georeferenciación Angulo:', angleTrueNorth, '°');
             console.log('Sistema de coordenadas:', sysCoord);
+            console.log('El tipo de archivo es:', tipoArchivo);
+
+            // Dispara un evento personalizado con la información
+            this.viewer.fireEvent({
+                type: 'GEORF_DATA_EVENT',
+                data: {
+                    coordNS,
+                    coordEW,
+                    coordElev,
+                    sysCoord,
+                    tipoArchivo,
+                    angleTrueNorth
+                }
+            });
         } else {
             console.warn('El modelo cargado no contiene datos de georreferenciación.');
         }
-        console.log('El tipo de archivo es:', tipoArchivo);
     }
+
 
     async onSelectionChanged(model) {
         super.onSelectionChanged(model);
